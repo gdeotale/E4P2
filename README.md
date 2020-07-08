@@ -8,7 +8,7 @@
 
         3. Face Recognition Part 1: Face Detection and Detection Strategies
 
-        4. OpenCV Refresher and Face Recognition Part 2: Implementing Object Tracking and Stabilization, OpenCV and DLIB, for face recognition and others
+        4. OpenCV Refresher and Face Recognition. Part 2: Implementing Object Tracking and Stabilization, OpenCV and DLIB, for face recognition and others
 
         5. Human Pose Estimation: State of Art HPE and Human Localization
 
