@@ -29,6 +29,13 @@ Got the imagenet labels in json format from this github repo [imagenet-labels](h
 4) Followed steps mentioned in the session and uploaded a docker package (container) [mobilenetv2-a1.zip](https://mobilenetv2-a1-dev-serverlessdeploymentbucket-1nd2vtd912kbg.s3.ap-south-1.amazonaws.com/serverless/mobilenetv2-a1/dev/1594790813774-2020-07-15T05%3A26%3A53.774Z/mobilenetv2-a1.zip) to AWS.
 
 ---------------------------------------------------------------------------------------------------------------------------
+## Prediction for different classes present in imagenet dataset
+
+<img src="https://github.com/gdeotale/E4P2/blob/master/Assignment1/images/hummingbird.png" width="80%" height="80%">
+
+<img src="https://github.com/gdeotale/E4P2/blob/master/Assignment1/images/spaceshuttle.png" width="80%" height="80%">
+
+---------------------------------------------------------------------------------------------------------------------------
 ## Cloudwatch Logs
 
 ![cloudwatchlogs](https://github.com/gdeotale/E4P2/blob/master/Assignment1/images/AWS%20cloudwatch%20request%20log.png)
