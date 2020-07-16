@@ -1,0 +1,10 @@
+1. sudo apt install curl
+2. curl -sL https://deb.nodesource.com/setup_10.x (Links to an external site.) -o nodesource_setup.sh
+3. sudo bash nodesource_setup.sh
+4. sudo apt-get install -y nodejs
+5. sudo npm install -g serverless
+6. serverless -help
+7. sls config credentials -- provider aws -- key AKIBWDBSFP1ACHJPAAGQ --secret PZWjxph8vFUkvLinL0frtBk1NijOKjI18DjFMEqm
+8. sls create --template aws-python3 --name mobilenetv2-A1
+9. serverless plugin install -n severless-python-requirements
+10. npm run deploy
