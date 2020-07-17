@@ -2,7 +2,9 @@
 
 ### This repository contains detailed application of the various parts of computer vision :
 
-        1. [Deploying over AWS: Train, Dockerize and then deploy your model on AWS.](https://github.com/gdeotale/E4P2/tree/master/Assignment1)
+
+
+        1. Deploying over AWS: Train, Dockerize and then deploy your model on AWS
 
         2. MobileNet & Other Edge DNNs: Training a DNN for EDGE Deployment from scratch. Understanding MobileNets and ShuffleNets
 
