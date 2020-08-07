@@ -11,12 +11,17 @@
 ## Notes 
 ---------------------------------------------------------------------------------------------------------------------------
 
+# what model did you train?
 Following is the Pytorch based implementation to use pretrained Mobilenetv2 model and train it over four classes namely Flying Birds, Winged_drones, Large Quadcopters, Small Quadcopters. The images for these labels can be found out at
 https://drive.google.com/file/d/133nsp1_PJXUpKOLzcYu9JivzHlGKMr8x/view?usp=sharing
 
 The model is deployed on aws and working is tested on Insomnia using url
 https://9nnncm80a9.execute-api.ap-south-1.amazonaws.com/dev/classify
 
+# Resizing Strategy:
+Although the images were of different sizes, we have used image resizing in albumentation to resize to 256x256 and then we used image cropping in albumentation to crop it to 224x224 as this size is need as input to Mobilenet v2.
+
+# Explain the code?
 We added following two fully connected model on top of existing pretrained model. For training we have freezed all existing layers until average pool and unfreezed newly added last 2 layers.
 # Mobilenet Model Addition to suit new class addition
 ![](Readme_images/Model_add.png)
