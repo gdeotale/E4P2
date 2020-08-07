@@ -63,21 +63,22 @@ The model has been trained over 50 epochs and we are able to achive 85% as top t
 
 
 # Result from the API:
-    Input Image :
+
+   **Input Image :**
   
-    ![bird](https://user-images.githubusercontent.com/25937235/89651641-dfab2d00-d8e1-11ea-90aa-f2dc88aeb6ac.jpeg)
+   ![bird](https://user-images.githubusercontent.com/25937235/89651641-dfab2d00-d8e1-11ea-90aa-f2dc88aeb6ac.jpeg)
   
-    Prediction :
+   **Prediction :**
   
-     <img width="276" alt="Screenshot 2020-08-07 at 7 14 01 PM" src="https://user-images.githubusercontent.com/25937235/89651838-2ac54000-d8e2-11ea-9147-da0d111b2853.png">
+   <img width="276" alt="Screenshot 2020-08-07 at 7 14 01 PM" src="https://user-images.githubusercontent.com/25937235/89651838-2ac54000-d8e2-11ea-9147-da0d111b2853.png">
   
-    Input Image :
+   **Input Image :**
     
-    ![Small-Quadcopter](https://user-images.githubusercontent.com/25937235/89652343-fb630300-d8e2-11ea-92d5-22d20a18c3f0.jpg)
+   ![Small-Quadcopter](https://user-images.githubusercontent.com/25937235/89652343-fb630300-d8e2-11ea-92d5-22d20a18c3f0.jpg)
     
-    Prediction :
+   **Prediction :**
     
-    <img width="303" alt="Screenshot 2020-08-07 at 7 20 17 PM" src="https://user-images.githubusercontent.com/25937235/89652388-09188880-d8e3-11ea-9530-1582176177e5.png">
+   <img width="303" alt="Screenshot 2020-08-07 at 7 20 17 PM" src="https://user-images.githubusercontent.com/25937235/89652388-09188880-d8e3-11ea-9530-1582176177e5.png">
   
 
 
