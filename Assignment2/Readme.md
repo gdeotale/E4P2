@@ -6,14 +6,23 @@ We added following two fully connected model on top of existing pretrained model
 ![](Readme_images/Model_add.png)
 
 Main colab file is kept at
+https://github.com/gdeotale/E4P2/blob/master/Assignment2/Mobilenet_Training/Main.ipynb
 
 New Generated model is kept at 
+https://github.com/gdeotale/E4P2/blob/master/Assignment2/Mobilenet_Training/Generated_models/Modeljit.pt
 
 Training/Testing medhod is kept at
+https://github.com/gdeotale/E4P2/blob/master/Assignment2/Mobilenet_Training/Train_Test_utils/
 
-Image Augmentation and data loading is kept at
+We have used Albumentation as method of augmentation, we tried image resizing, Image cropping, Cut Out and Image Normalization as methods in Augmentation
+Image Augmentation and Dataloader is kept at
+https://github.com/gdeotale/E4P2/blob/master/Assignment2/Mobilenet_Training/Main.ipynb
 
-The model has been trained over 50 epochs and we are able to achive 85% as top test accuracy.
+We have segregated the data in train test folder in ratio of 70:30 classwise.
+
+The model has been trained over 50 epochs and we are able to achive 
+# 85% as top test accuracy.
+
 # Plots
 ![](Readme_images/Plots.png)
 # LR vs Epochs
