@@ -1,1 +1,13 @@
-1) Deployed trained mobilenet_v2 on AWS Lambda. Predicted the class id and class name for the [Flying Bird](https://github.com/gdeotale/E4P2/blob/master/Assignment2/Readme/Flying Bird.jpg) image. 
+# Cloud Watch Logs
+![](Readme_images/CloudWatch.png)
+# Api Gateway
+![](Readme_images/ApiGateway.png)
+# Misclassified Images
+1. Flying Birds
+![](Readme_images/flying_birds.png)
+2. Large Quadcopters
+![](Readme_images/large_Quadcopters.png)
+3. Small Quadcopters
+![](Readme_images/small_quadcopter.png)
+4.Winged Drone
+![](Readme_images/winged_drone.png)
