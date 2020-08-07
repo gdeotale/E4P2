@@ -1,4 +1,4 @@
-![](Readme_images/Cloudwatch.png)
+![](Readme_images/CloudWatch.png)
 ![](Readme_images/ApiGateway.png)
 #Misclassified Images
 ![](Readme_images/flying_birds.png)
