@@ -79,6 +79,15 @@ The model has been trained over 50 epochs and we are able to achive 85% as top t
    **Prediction :**
     
    <img width="303" alt="Screenshot 2020-08-07 at 7 20 17 PM" src="https://user-images.githubusercontent.com/25937235/89652388-09188880-d8e3-11ea-9530-1582176177e5.png">
+   
+   **Input Image :**
+   
+   ![large-quadcopter](https://user-images.githubusercontent.com/25937235/89652847-b8555f80-d8e3-11ea-82d0-3accbbfd2693.jpg)
+   
+   **Prediction :**
+   
+   <img width="313" alt="Screenshot 2020-08-07 at 7 25 04 PM" src="https://user-images.githubusercontent.com/25937235/89652839-b55a6f00-d8e3-11ea-936a-9ce6462dd818.png">
+
   
 
 
