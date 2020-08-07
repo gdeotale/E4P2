@@ -1,2 +1,7 @@
-1) Deployed trained mobilenet_v2 on AWS Lambda. Predicted the class id and class name for the 
+![](Readme_images/Cloudwatch.png)
 ![](Readme_images/ApiGateway.png)
+#Misclassified Images
+![](Readme_images/flying_birds.png)
+![](Readme_images/large_Quadcopters.png)
+![](Readme_images/small_quadcopter.png)
+![](Readme_images/winged_drone.png)
