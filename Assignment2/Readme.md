@@ -17,7 +17,7 @@ https://drive.google.com/file/d/133nsp1_PJXUpKOLzcYu9JivzHlGKMr8x/view?usp=shari
 The model is deployed on aws and working is tested on Insomnia using url
 https://9nnncm80a9.execute-api.ap-south-1.amazonaws.com/dev/classify
 
-We added following two fully connected model on top of existing pretrained model. 
+We added following two fully connected model on top of existing pretrained model. For training we have freezed all existing layers until average pool and unfreezed newly added last 2 layers.
 # Mobilenet Model Addition to suit new class addition
 ![](Readme_images/Model_add.png)
 
