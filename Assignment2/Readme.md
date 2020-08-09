@@ -47,6 +47,8 @@ The model has been trained over 50 epochs and we are able to achive 85% as top t
 ![](Readme_images/Plots.png)
 # LR vs Epochs
 ![](Readme_images/lr_vs_epoch.png)
+# Confusion Matrix
+![](Readme_images/confusion_matrix.jpeg)
 # Misclassified Images
 ![](Readme_images/misclassification_library.jpeg)
 # Cloud Watch Logs
