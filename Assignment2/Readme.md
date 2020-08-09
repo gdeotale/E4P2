@@ -48,6 +48,7 @@ The model has been trained over 50 epochs and we are able to achive 85% as top t
 # LR vs Epochs
 ![](Readme_images/lr_vs_epoch.png)
 # Misclassified Images
+![](Readme_images/misclassification_library.jpeg)
 1. Flying Birds
 ![](Readme_images/flying_birds.png)
 2. Large Quadcopters
