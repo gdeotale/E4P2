@@ -49,14 +49,6 @@ The model has been trained over 50 epochs and we are able to achive 85% as top t
 ![](Readme_images/lr_vs_epoch.png)
 # Misclassified Images
 ![](Readme_images/misclassification_library.jpeg)
-1. Flying Birds
-![](Readme_images/flying_birds.png)
-2. Large Quadcopters
-![](Readme_images/large_Quadcopters.png)
-3. Small Quadcopters
-![](Readme_images/small_quadcopter.png)
-4.Winged Drone
-![](Readme_images/winged_drone.png)
 # Cloud Watch Logs
 ![](Readme_images/CloudWatch.png)
 # Api Gateway
