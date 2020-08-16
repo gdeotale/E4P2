@@ -23,3 +23,9 @@ Link : https://session3--face-alignment-face-swap.s3.ap-south-1.amazonaws.com/do
 
 ### Resnet image classification
 ![](ReadMe_images/ImageClassifcation_resnet.jpg)
+### Mobilenet flying object classification
+![](ReadMe_images/FlyingObjectClassification_mobilenetV2_TransferLearning.jpg)
+### Face Alignment
+![](ReadMe_images/Face-Alignment.jpg)
+### Face Swap
+![](ReadMe_images/Iface-swap.jpg)
