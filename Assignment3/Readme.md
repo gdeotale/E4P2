@@ -21,5 +21,5 @@ Link : https://session3--face-alignment-face-swap.s3.ap-south-1.amazonaws.com/do
 ----------------------------------------------------------------------------------------------------------------------------
 ## Results on webpage for different APIs:
 
-1. Resnet image classification
+### Resnet image classification
 ![](ReadMe_images/ImageClassifcation_resnet.jpg)
