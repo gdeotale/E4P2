@@ -28,4 +28,6 @@ Link : https://session3--face-alignment-face-swap.s3.ap-south-1.amazonaws.com/do
 ### Face Alignment
 ![](ReadMe_images/Face-Alignment.jpg)
 ### Face Swap
-![](ReadMe_images/Iface-swap.jpg)
+![](ReadMe_images/face-swap.jpg)
+
+-----------------------------------------------------------------------------------------------------------------------------
