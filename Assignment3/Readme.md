@@ -31,3 +31,10 @@ Link : https://session3--face-alignment-face-swap.s3.ap-south-1.amazonaws.com/do
 ![](ReadMe_images/face-swap.jpg)
 
 -----------------------------------------------------------------------------------------------------------------------------
+## Code links
+**Face Alignment**
+https://github.com/gdeotale/E4P2/tree/master/Assignment3/AWS/Face-Align
+**Face Swap**
+https://github.com/gdeotale/E4P2/tree/master/Assignment3/AWS/Face-Swap
+**HTML and js**
+https://github.com/gdeotale/E4P2/tree/master/Assignment3/AWS/HTML%20%26%20JS
