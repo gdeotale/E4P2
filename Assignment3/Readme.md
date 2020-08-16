@@ -10,3 +10,12 @@
 ----------------------
 ## Notes 
 ---------------------------------------------------------------------------------------------------------------------------
+## Following examples are implemented as AWS apps:
+1. Resnet image classification
+2. Mobilenet flying object classification
+3. Face Alignment
+4. Face Swap
+
+Link : https://session3--face-alignment-face-swap.s3.ap-south-1.amazonaws.com/doctype.html
+
+----------------------------------------------------------------------------------------------------------------------------
