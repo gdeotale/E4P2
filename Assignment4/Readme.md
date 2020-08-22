@@ -66,4 +66,4 @@ https://github.com/gdeotale/E4P2/tree/master/Assignment4
 
 **HTML and js**
 
-https://github.com/gdeotale/E4P2/tree/master/Assignment3/AWS/HTML%20%26%20JS
+https://github.com/gdeotale/E4P2/blob/master/Assignment4/Datahtml/doctype.html
