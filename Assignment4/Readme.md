@@ -8,7 +8,40 @@
 4. Pratik Jain
 
 ----------------------
-## Notes 
+## Dataset creation and training strategy :
+
+Took images of the following 10 well-know celebrities not present in the LFW_funneled dataset.
+1. Aamir Khan
+2. Ajay Devgn
+3. Akshay Kumar
+4. Anushka Sharma
+5. Deepika Padukone
+6. MS Dhoni
+7. Sonu Sood
+8. Sushant Singh
+9. Sharukh Khan
+10. Virat Kohli
+
+*  For creating train and test set we considered classes which has image count > 3 in the LFW funneled dataset.
+*  So total there are 520 classes from the dataset and 10 custom classes which we added. There are total 620 classes in the dataset. We split the data 70:30 in train and test set.
+*  We used cyclic learning rate policy with annealing. We achieved max train accuracy = 100% and test accuracy = 98.34%. We used pretrained model InceptionResnetV1 which was trained on the VGGFace dataset.
+
+#### Train vs Test accuracy and loss plots
+
+![](https://github.com/gdeotale/E4P2/blob/master/Assignment4/ReadmeImages/Accuracyplot.png)
+
+#### LR vs epoch plot
+
+![](https://github.com/gdeotale/E4P2/blob/master/Assignment4/ReadmeImages/lrvsepoch.png)
+
+#### Misclassified Images
+
+![](https://github.com/gdeotale/E4P2/blob/master/Assignment4/ReadmeImages/missclassified.jpg)
+
+#### Correct classified Images
+
+![](https://github.com/gdeotale/E4P2/blob/master/Assignment4/ReadmeImages/correct_classified.jpg)
+
 ---------------------------------------------------------------------------------------------------------------------------
 ## Following examples are implemented as AWS apps:
 1. Resnet image classification
