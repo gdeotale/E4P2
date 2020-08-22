@@ -53,10 +53,9 @@ Took images of the following 10 well-know celebrities not present in the LFW_fun
 Link : https://session3--face-alignment-face-swap.s3.ap-south-1.amazonaws.com/doctype.html
 
 ----------------------------------------------------------------------------------------------------------------------------
-## Results on webpage for API:
+## AWS API Link:
 
-### Face Recognition
-![]()
+https://tf06hxpp42.execute-api.ap-south-1.amazonaws.com/dev/recognize
 
 -----------------------------------------------------------------------------------------------------------------------------
 ## Code links
