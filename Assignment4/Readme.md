@@ -41,7 +41,7 @@ Took images of the following 10 well-know celebrities not present in the LFW_fun
 #### Correct classified Images
 
 ![](https://github.com/gdeotale/E4P2/blob/master/Assignment4/ReadmeImages/correct_classified.jpg)
-
+![](https://github.com/gdeotale/E4P2/blob/master/Assignment4/ReadmeImages/Akshay.png)
 ---------------------------------------------------------------------------------------------------------------------------
 ## Following examples are implemented as AWS apps:
 1. Resnet image classification
