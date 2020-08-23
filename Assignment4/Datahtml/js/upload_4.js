@@ -16,7 +16,7 @@ function uploadAndClassifyImage(){
 		async: true,
 		crossDomain: true,
 		method: 'POST',
-		url: 'https://9nnncm80a9.execute-api.ap-south-1.amazonaws.com/dev/classify',
+		url: 'https://osj69g9eej.execute-api.ap-south-1.amazonaws.com/dev/classify',
 		data: formData,
 		processData: false,
 		contentType: false,
