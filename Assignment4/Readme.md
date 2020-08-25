@@ -23,8 +23,8 @@ Took images of the following 10 well-know celebrities not present in the LFW_fun
 10. Virat Kohli
 
 *  For creating train and test set we considered classes which has image count > 3 in the LFW funneled dataset.
-*  So total there are 520 classes from the dataset and 10 custom classes which we added. There are total 620 classes in the dataset. We split the data 70:30 in train and test set.
-*  We used cyclic learning rate policy with annealing. We achieved max train accuracy = 100% and test accuracy = 98.34%. We used pretrained model InceptionResnetV1 which was trained on the VGGFace dataset.
+*  So total there are 620 classes from the dataset and 10 custom classes which we added. There are total 620 classes in the dataset. We split the data 70:30 in train and test set.
+*  We used cyclic learning rate policy with annealing. We achieved max train accuracy = 100% and test accuracy = 81.34%. We used pretrained model InceptionResnetV1 which was trained on the VGGFace dataset.
 
 #### Train vs Test accuracy and loss plots
 
