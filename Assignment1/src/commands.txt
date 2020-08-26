@@ -4,7 +4,23 @@
 4. sudo apt-get install -y nodejs
 5. sudo npm install -g serverless
 6. serverless -help
-7. sls config credentials -- provider aws -- key AKIBWDBSFP1ACHJPAAGQ --secret PZWjxph8vFUkvLinL0frtBk1NijOKjI18DjFMEqm
+7. sls config credentials -- provider aws -- key AKIA4EDOUHTGAFQJSCVZ --secret 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
 8. sls create --template aws-python3 --name mobilenetv2-A1
-9. serverless plugin install -n severless-python-requirements
+9. serverless plugin install -n serverless-python-requirements
 10. npm run deploy
+
+
+
+deploy-mobilenet-custom
+
+
+      - '**/test'
+      - '**/libcaffe2.so'
+      - '**/onnx*'
+      - '**/caffe*'   
+       
+      - '**/libcaffe2.so'
+      - '**/libcaffe2_detectron_ops.so'
+      
+      
+https://download.pytorch.org/whl/nightly/cpu/torchvision-0.8.0.dev20200730%2Bcpu-cp38-cp38-linux_x86_64.whl
