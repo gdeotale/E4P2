@@ -47,6 +47,12 @@ boxes do not overlap. \
   ![](https://github.com/gdeotale/E4P2/blob/master/Assignment5/ReadmeImages/flowbased.png)  
   Considering consecutive two frames is not enough, thus we have the flow-based pose similarity considering multi frames, denoted as SMulti−flow, meaning the propagated J^k comes from multi previous frames. 
   
+## Algorithm for Pose Tracking in a video
+  ![](https://github.com/gdeotale/E4P2/blob/master/Assignment5/ReadmeImages/Algo1_desc.png)
+  
+  Following is the actual algorithm used in practice. Apart from above description this algorithm starts with boundingbox detection using mask rcnn on initial frame and proceeds forward.
+  ![](https://github.com/gdeotale/E4P2/blob/master/Assignment5/ReadmeImages/Algo.png)
+  
   
   
 
