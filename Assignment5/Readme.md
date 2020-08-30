@@ -15,8 +15,11 @@ tracking.
 ## Architecture
 To discuss simplicity of architecture 3 arctitectures are discussed 
 1. HourGlass
+![](https://github.com/gdeotale/E4P2/blob/master/Assignment5/ReadmeImages/hourglass.png)
 2. Cascaded Pyramid Network (CPN)
+![](https://github.com/gdeotale/E4P2/blob/master/Assignment5/ReadmeImages/cpn.png)
 3. Our Network
+![](https://github.com/gdeotale/E4P2/blob/master/Assignment5/ReadmeImages/our.png)
 
 
 
