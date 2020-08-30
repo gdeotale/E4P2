@@ -15,10 +15,10 @@ tracking.
 ## Architecture
 To discuss simplicity of architecture 3 arctitectures are discussed 
 1. HourGlass : It features in a multi-stage architecture with repeated bottom-up, top-down processing and skip layer feature concatenation.
-
+![](https://github.com/gdeotale/E4P2/edit/master/Assignment5/Readme Images/hourglass.png)
 2. Cascaded Pyramid Network (CPN) : It also involves skip layer feature concatenation and an online hard keypoint mining step.
 Both works above, use upsampling to increase the feature map resolution and put convolutional parameters in other blocks.
-
+![](https://github.com/gdeotale/E4P2/edit/master/Assignment5/Readme Images/cpn.png)
 3. Our Network : This combines the upsampling and convolutional parameters into deconvolutional layers in a much simpler way, without using skip layer connections.
-
+![](https://github.com/gdeotale/E4P2/edit/master/Assignment5/Readme Images/our.png)
 
