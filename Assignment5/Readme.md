@@ -1,5 +1,4 @@
 ## Data
-
 1.1 Pose Estimation on COCO
 The COCO train, validation, and test sets contain more than 200k images and 250k person instances labeled with keypoints. 
 150k instances of them are publicly available for training and validation. Our models are only trained on all COCO train2017 dataset 
@@ -12,3 +11,12 @@ in single frames, but also temporal tracking across frames. It contains 514 vide
 208 videos for training, validation and test set respectively. For training videos, 30 frames from the center are annotated. For
 validation and test videos, besides 30 frames from the center, every fourth frame is also annotated for evaluating long range articulated
 tracking.
+
+## Architecture
+To discuss simplicity of architecture 3 arctitectures are discussed 
+1. HourGlass
+2. Cascaded Pyramid Network (CPN)
+3. Our Network
+
+
+
