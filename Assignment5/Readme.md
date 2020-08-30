@@ -44,6 +44,9 @@ Authors method: 2 major differences from above \
   Using bounding box IoU(Intersection-over-Union) as the similarity metric (SBbox) to link instances could be problematic when an instance moves fast thus the
 boxes do not overlap. \
   A more fine-grained metric could be a pose similarity (SP ose) which calculates the body joints distance between two instances using Object Keypoint Similarity (OKS). The pose similarity could also be problematic when the pose of the same person is different across frames due to pose changing. \
-  flow-based pose similarity metric: Given one instance Jk i in frame Ik and one instance Jjl in frame Il, the flow-based pose similarity metric is represented as
-![](https://github.com/gdeotale/E4P2/blob/master/Assignment5/ReadmeImages/flowbased.png)  
+  ![](https://github.com/gdeotale/E4P2/blob/master/Assignment5/ReadmeImages/flowbased.png)  
+  Considering consecutive two frames is not enough, thus we have the flow-based pose similarity considering multi frames, denoted as SMulti−flow, meaning the propagated J^k comes from multi previous frames. 
+  
+  
+  
 
