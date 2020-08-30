@@ -13,12 +13,19 @@ validation and test videos, besides 30 frames from the center, every fourth fram
 tracking.
 
 ## Architecture
-To discuss simplicity of architecture 3 arctitectures are discussed 
+To discuss simplicity of architecture 3 arctitectures are discussed. It seems that obtaining high resolution feature, maps is crucial, but no matter how.
+
 1. HourGlass
+It features in a multi-stage architecture with repeated bottom-up, top-down processing and skip layer feature concatenation.
 ![](https://github.com/gdeotale/E4P2/blob/master/Assignment5/ReadmeImages/hourglass.png)
+
 2. Cascaded Pyramid Network (CPN)
+It also involves skip layer feature concatenation and an online hard keypoint mining step.
 ![](https://github.com/gdeotale/E4P2/blob/master/Assignment5/ReadmeImages/cpn.png)
+Both works above use upsampling to increase the feature map resolution and put convolutional parameters in other blocks. 
+
 3. Our Network
+This method combines the upsampling and convolutional parameters into deconvolutional layers in a much simpler way, without using skip layer connections.
 ![](https://github.com/gdeotale/E4P2/blob/master/Assignment5/ReadmeImages/our.png)
 
 
