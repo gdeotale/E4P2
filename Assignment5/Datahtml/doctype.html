@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<div class="grid-x grid-margin-x" style="margin-top:1%;">
+			<div class="large-12 cell">
+				<h4 id='HumanPoseObject'>Human Pose Estimation</h4>
+			</div>
+			<div class="large-4 cell">
+				<label for="HumanPoseUpload">Please choose full Human to get highlights.
+				</label>
+				<input type="file" id="HumanPoseUpload" onchange="loadFile8(event)">
+			</div>
+			<div class="large-8 cell">
+				<input type="button" id="btnHumanPoseUpload" class="button" value="Highlight Parts"  style="margin-top:2%;margin-left:5%;">
+			</div>
+			<p id="result8"></p>
+			<img id="output8" style="margin-top:0%;margin-left:5%;width:200px;height:200px">
+			<img id="output9" style="margin-top:0%;margin-left:10%;width:200px;height:200px">
+			</div>
+		</div>
+	</body>
+	<script>
+		var loadFile8 = function(event) {
+		var image = document.getElementById('output8');
+		image.src = URL.createObjectURL(event.target.files[0]);
+		var image = document.getElementById('output9');
+		image.src = "//:0";
+	};
+	</script>
+	<script src="https://session3--face-alignment-face-swap.s3.ap-south-1.amazonaws.com/js/jquery-3.3.1.min.js"></script>
+	<script src="https://session3--face-alignment-face-swap.s3.ap-south-1.amazonaws.com/js/upload_5.js"></script>
+</html>
+<html lang="en" dir="ltr">
+    <style>
+		body {
+				background-image: url('https://images.idgesg.net/images/article/2019/02/abstract_data_coding_matrix_structure_network_connections_by_peshkova_gettyimages-897683944_2400x1600-100788487-large.jpg');
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+	</style>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<div class="grid-x grid-margin-x" style="margin-top:2%;">
+			<div class="large-12 cell">
+				<h4 id='facerecognition'>Face Recognition</h4>
+			</div>
+			<div class="large-4 cell">
+				<label for="faceFileUpload">Please choose image file u want to classify.
+				</label>
+				<input type="file" id="faceFileUpload" onchange="loadFile6(event)">
+			</div>
+			<div class="large-8 cell">
+				<input type="button" id="btnFaceUpload" class="button" value="Identify person"  style="margin-top:2%;margin-left:5%;">
+			</div>
+			<p id="result5"></p>
+			<img id="output7" style="margin-top:0%;margin-left:5%;width:200px;height:200px">
+			</div>
+		</div>
+	</body>
+	<script>
+		var loadFile6 = function(event) {
+		var image = document.getElementById('output7');
+		image.src = URL.createObjectURL(event.target.files[0]);
+	};
+	</script>
+	<script src="https://session3--face-alignment-face-swap.s3.ap-south-1.amazonaws.com/js/jquery-3.3.1.min.js"></script>
+	<script src="https://session3--face-alignment-face-swap.s3.ap-south-1.amazonaws.com/js/upload_4.js"></script>
+</html>
+<html lang="en" dir="ltr">
+    <style>
+		body {
+				background-image: url('https://images.idgesg.net/images/article/2019/02/abstract_data_coding_matrix_structure_network_connections_by_peshkova_gettyimages-897683944_2400x1600-100788487-large.jpg');
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+	</style>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<div class="grid-x grid-margin-x" style="margin-top:2%;">
+			<div class="large-12 cell">
+				<h4 id='imageClassifiers'>Image Classifiers</h4>
+			</div>
+			<div class="large-4 cell">
+				<label for="resnet34FileUpload">Please choose image file u want to classify.
+				</label>
+				<input type="file" id="resnet34FileUpload" onchange="loadFile(event)">
+			</div>
+			<div class="large-8 cell">
+				<input type="button" id="btnResNetUpload" class="button" value="Classify Image"  style="margin-top:2%;margin-left:5%;">
+			</div>
+			<p id="result"></p>
+			<img id="output" style="margin-top:0%;margin-left:5%;width:200px;height:200px">
+			</div>
+		</div>
+	</body>
+	<script>
+		var loadFile = function(event) {
+		var image = document.getElementById('output');
+		image.src = URL.createObjectURL(event.target.files[0]);
+	};
+	</script>
+	<script src="https://session3--face-alignment-face-swap.s3.ap-south-1.amazonaws.com/js/jquery-3.3.1.min.js"></script>
+	<script src="https://session3--face-alignment-face-swap.s3.ap-south-1.amazonaws.com/js/upload.js"></script>
+</html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<div class="grid-x grid-margin-x" style="margin-top:1%;">
+			<div class="large-12 cell">
+				<h4 id='FlyingObject'>FlyingObject Classifier</h4>
+			</div>
+			<div class="large-4 cell">
+				<label for="Mobilenetv2FileUpload">Please choose image file u want to classify.
+				</label>
+				<input type="file" id="Mobilenetv2FileUpload" onchange="loadFile1(event)">
+			</div>
+			<div class="large-8 cell">
+				<input type="button" id="btnMobileNetUpload" class="button" value="Classify Image"  style="margin-top:2%;margin-left:5%;">
+			</div>
+			<p id="result1"></p>
+			<img id="output1" style="margin-top:0%;margin-left:5%;width:200px;height:200px">
+			</div>
+		</div>
+	</body>
+	<script>
+		var loadFile1 = function(event) {
+		var image = document.getElementById('output1');
+		image.src = URL.createObjectURL(event.target.files[0]);
+	};
+	</script>
+	<script src="https://session3--face-alignment-face-swap.s3.ap-south-1.amazonaws.com/js/jquery-3.3.1.min.js"></script>
+	<script src="https://session3--face-alignment-face-swap.s3.ap-south-1.amazonaws.com/js/upload_1.js"></script>
+</html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<div class="grid-x grid-margin-x" style="margin-top:1%;">
+			<div class="large-12 cell">
+				<h4 id='AlignObject'>Align Image</h4>
+			</div>
+			<div class="large-4 cell">
+				<label for="FaceFileUpload">Please choose face file u want to Align.
+				</label>
+				<input type="file" id="FaceFileUpload" onchange="loadFile2(event)">
+			</div>
+			<div class="large-8 cell">
+				<input type="button" id="btnFaceFileUpload" class="button" value="Align Image"  style="margin-top:2%;margin-left:5%;">
+			</div>
+			<p id="result2"></p>
+			<img id="output2" style="margin-top:0%;margin-left:5%;width:200px;height:200px">
+			<img id="output3" style="margin-top:0%;margin-left:10%;width:200px;height:200px">
+			</div>
+		</div>
+	</body>
+	<script>
+		var loadFile2 = function(event) {
+		var image = document.getElementById('output2');
+		image.src = URL.createObjectURL(event.target.files[0]);
+		var image = document.getElementById('output3');
+		image.src = "//:0";
+	};
+	</script>
+	<script src="https://session3--face-alignment-face-swap.s3.ap-south-1.amazonaws.com/js/jquery-3.3.1.min.js"></script>
+	<script src="https://session3--face-alignment-face-swap.s3.ap-south-1.amazonaws.com/js/upload_2.js"></script>
+</html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<div class="grid-x grid-margin-x" style="margin-top:1%;">
+			<div class="large-12 cell">
+				<h4 id='FaceMerge'>Merge Faces</h4>
+			</div>
+			<div class="large-4 cell">
+				<label for="FaceMergeFileUpload">Please choose file
+				</label>
+				<input type="file" id="FaceMergeFileUpload" onchange="loadFile4(event)">
+				<label for="FaceMergeFileUpload">Please choose file 2
+				</label>
+				<input type="file" id="FaceMergeFileUpload1" onchange="loadFile5(event)">
+			</div>
+			<div class="large-8 cell">
+				<input type="button" id="btnFaceMergeUpload" class="button" value="Merge" style="margin-top:2%;margin-left:5%;">
+			</div>
+			<p id="result1"></p>
+			<img id="output4" style="margin-top:0%;margin-left:5%;width:200px;height:200px">
+			<img id="output5" style="margin-top:0%;margin-left:10%;width:200px;height:200px">
+			<img id="output6" style="margin-top:0%;margin-left:20%;width:200px;height:200px">
+			</div>
+		</div>
+	</body>
+	<script>
+		var loadFile4 = function(event) {
+		var image = document.getElementById('output4');
+		image.src = URL.createObjectURL(event.target.files[0]);
+	};
+	</script>
+	<script>
+		var loadFile5 = function(event) {
+		var image = document.getElementById('output5');
+		image.src = URL.createObjectURL(event.target.files[0]);
+	};
+	</script>
+	<script src="https://session3--face-alignment-face-swap.s3.ap-south-1.amazonaws.com/js/jquery-3.3.1.min.js"></script>
+	<script src="https://session3--face-alignment-face-swap.s3.ap-south-1.amazonaws.com/js/upload_3.js"></script>
+</html>	
