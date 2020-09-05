@@ -21,7 +21,7 @@
 ![](https://github.com/gdeotale/E4P2/blob/master/Assignment5/ReadmeImages/bodyPartsJoinedByLines.jpg)
 ------------------------------------------------------------------------------------------------------------
 
-## Following examples are implemented as AWS apps and accessible trough below link:
+## Following examples are implemented as AWS apps and accessible through below link:
 1. Resnet image classification
 2. Mobilenet flying object classification
 3. Face Alignment
