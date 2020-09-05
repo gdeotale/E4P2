@@ -21,3 +21,26 @@
 ![](https://github.com/gdeotale/E4P2/blob/master/Assignment5/ReadmeImages/bodyPartsJoinedByLines.jpg)
 ------------------------------------------------------------------------------------------------------------
 
+## Following examples are implemented as AWS apps and accessible trough below link:
+1. Resnet image classification
+2. Mobilenet flying object classification
+3. Face Alignment
+4. Face Swap
+5. Face Recognition
+6. Human pose estimation
+
+Link : https://session3--face-alignment-face-swap.s3.ap-south-1.amazonaws.com/doctype.html
+------------------------------------------------------------------------------------------------------------
+
+## AWS API Link for Human pose estimation:
+
+https://wv8f5xwqk4.execute-api.ap-south-1.amazonaws.com/dev/estimate
+-----------------------------------------------------------------------------------------------------------------------------
+## Code links
+**Human Pose Estimation**
+
+https://github.com/gdeotale/E4P2/tree/master/Assignment5/Pose%20Estimation
+
+**HTML and js**
+
+https://github.com/gdeotale/E4P2/blob/master/Assignment5/Datahtml/doctype.html
