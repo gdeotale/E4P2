@@ -1,0 +1,32 @@
+modelnet = Generator(out_channel=3).to(device)
+modelnet.load_state_dict(torch.load('Generated_models/Model_1350_final.pt'), strict=False)
+modelnet.eval()
+
+!pip install onnx onnxruntime
+import io
+import numpy as np
+import torch.onnx
+import copy
+
+# Input to the model
+torch_model = copy.deepcopy(modelnet)
+torch_model = torch_model.to(device)
+print(next(torch_model.parameters()).is_cuda)
+batch_size = 1
+x = torch.randn(36,100, requires_grad=True)
+x = x.to(device)
+torch_out = torch_model(x)
+
+# Export the model
+torch.onnx.export(torch_model,               # model being run
+                  x,                         # model input (or a tuple for multiple inputs)
+                  "Generated_models/cars.onnx",   # where to save the model (can be a file or file-like object)
+                  export_params=True,        # store the trained parameter weights inside the model file
+                  # verbose = True,
+                  opset_version=10,          # the ONNX version to export the model to
+                  do_constant_folding=False,  # whether to execute constant folding for optimization
+                  input_names = ['input'],   # the model's input names
+                  output_names = ['output'], # the model's output names
+                  dynamic_axes={'input' : {0 : 'batch_size'},    # variable lenght axes
+                                'output' : {0 : 'batch_size'}})
+								
