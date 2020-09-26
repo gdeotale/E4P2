@@ -1,0 +1,5 @@
+https://files.pythonhosted.org/packages/30/bf/92385b4262178ca22b34f82e0e09c2922eb351fe39f3cc7b8ba9ea555b41/Pillow-7.2.0-cp36-cp36m-manylinux1_x86_64.whl
+onnxruntime
+numpy==1.18.5
+matplotlib
+requests_toolbelt
