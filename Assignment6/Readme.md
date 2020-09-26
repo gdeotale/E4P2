@@ -5,6 +5,7 @@
 
 #### Output sample generated images
 
+![](https://github.com/gdeotale/E4P2/blob/master/Assignment6/DCGan/Output.gif)
 ![](https://github.com/gdeotale/E4P2/blob/master/Assignment6/ReadmeImages/Output_cars.png)
 ------------------------------------------------------------------------------------------------------------
 
