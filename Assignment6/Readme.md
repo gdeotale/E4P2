@@ -1,4 +1,12 @@
 ## EVA 4 Phase 2 Assignment 6 Using GAN to create cars from random latent vectors
+------------------------------------------------------------------------------------------------------------
+
+## Group : 
+1. Abhijit Mali
+2. Gunjan Deotale
+3. Sanket Maheshwari
+4. Pratik Jain
+
 
 ------------------------------------------------------------------------------------------------------------
 1. We are internally passing random data to generator which is using it as latent vector to generate new cars
