@@ -1,8 +1,6 @@
 
-## EVA 4 Phase 2 Assignment 7 Using VAE to create cars from random latent vectors
+## EVA 4 Phase 2 Assignment 7 Using VAE to create cars from random latent vectors and to reconstruct cars
 
-------------------------------------------------------------------------------------------------------------
-1. We are internally passing random data to decoder part of network which is using it as latent vector to generate new cars
 ------------------------------------------------------------------------------------------------------------
 
 #### Model output - regenerated test images
@@ -31,7 +29,7 @@ Link : https://session3--face-alignment-face-swap.s3.ap-south-1.amazonaws.com/do
 
 ## AWS API Link for VAE
 
-
+https://github.com/gdeotale/E4P2/tree/master/Assignment7/AWS
 
 -----------------------------------------------------------------------------------------------------------------------------
 ## Code links
@@ -41,3 +39,4 @@ https://github.com/gdeotale/E4P2/blob/master/Assignment7/EVA4P2_A7_VAE.ipynb
 
 **HTML and js**
 
+https://github.com/gdeotale/E4P2/tree/master/Assignment7/Datahtml
