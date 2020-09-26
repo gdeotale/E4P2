@@ -1,24 +1,19 @@
 ## EVA 4 Phase 2 Assignment 5 Human Pose estimation using MPII - ResNet50 Model trained on 256x256 sized images
 ------------------------------------------------------------------------------------------------------------
 
-#### Input Image
+#### Input Data
 
-![](https://github.com/gdeotale/E4P2/blob/master/Assignment5/ReadmeImages/inputImage.jpg)
+We are internally passing random data to generator which is using it as latent vector to generate new cars
 ------------------------------------------------------------------------------------------------------------
 
-#### Different body joints detected
+#### Output sample generated images
 
-![](https://github.com/gdeotale/E4P2/blob/master/Assignment5/ReadmeImages/seperateBodyParts.jpg)
+![](https://github.com/gdeotale/E4P2/blob/master/Assignment6/ReadmeImages/Output_cars.png)
 ------------------------------------------------------------------------------------------------------------
 
-#### All detections together
+#### Generator vs Discriminator Plots generated during training
 
-![](https://github.com/gdeotale/E4P2/blob/master/Assignment5/ReadmeImages/allBodyPartsTogether.jpg)
-------------------------------------------------------------------------------------------------------------
-
-#### Body joints joined
-
-![](https://github.com/gdeotale/E4P2/blob/master/Assignment5/ReadmeImages/bodyPartsJoinedByLines.jpg)
+![](https://github.com/gdeotale/E4P2/blob/master/Assignment6/ReadmeImages/plots.png)
 ------------------------------------------------------------------------------------------------------------
 
 ## Following examples are implemented as AWS apps and accessible through below link:
@@ -28,6 +23,7 @@
 4. Face Swap
 5. Face Recognition
 6. Human pose estimation
+7. Using GAN for creating cars
 
 Link : https://session3--face-alignment-face-swap.s3.ap-south-1.amazonaws.com/doctype.html
 
@@ -35,14 +31,17 @@ Link : https://session3--face-alignment-face-swap.s3.ap-south-1.amazonaws.com/do
 
 ## AWS API Link for Human pose estimation:
 
-https://wv8f5xwqk4.execute-api.ap-south-1.amazonaws.com/dev/estimate
+https://at058si8uc.execute-api.ap-south-1.amazonaws.com/dev/getcars
 
 -----------------------------------------------------------------------------------------------------------------------------
 ## Code links
-**Human Pose Estimation**
+**DC GAN **
 
-https://github.com/gdeotale/E4P2/tree/master/Assignment5/Pose%20Estimation
+https://github.com/gdeotale/E4P2/blob/master/Assignment6/DCGan/DCGAN.ipynb
+
+DC GAN model kept at 
+https://github.com/gdeotale/E4P2/blob/master/Assignment6/DCGan/models/GD.py
 
 **HTML and js**
 
-https://github.com/gdeotale/E4P2/blob/master/Assignment5/Datahtml/doctype.html
+https://github.com/gdeotale/E4P2/blob/master/Assignment6/Datahtml/doctype.html
