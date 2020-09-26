@@ -4,13 +4,25 @@
 1. We are internally passing random data to generator which is using it as latent vector to generate new cars
 ------------------------------------------------------------------------------------------------------------
 
-#### Output sample generated images
+#### DCGAN Output sample generated images
 
 ![](https://github.com/gdeotale/E4P2/blob/master/Assignment6/DCGan/Output.gif)
 ![](https://github.com/gdeotale/E4P2/blob/master/Assignment6/ReadmeImages/Output_cars.png)
 ------------------------------------------------------------------------------------------------------------
 
-#### Generator vs Discriminator Plots generated during training
+#### R1GAN Output sample generated images
+
+![](https://github.com/gdeotale/E4P2/blob/master/Assignment6/ReadmeImages/Output-R1GAN.jpg)
+![](https://github.com/gdeotale/E4P2/blob/master/Assignment6/ReadmeImages/R1GAN.gif)
+![](https://github.com/gdeotale/E4P2/blob/master/Assignment6/ReadmeImages/R1GAN-RandomValue.jpg)
+------------------------------------------------------------------------------------------------------------
+
+#### R1GAN Generator vs Discriminator Plots generated during training
+
+![](https://github.com/gdeotale/E4P2/blob/master/Assignment6/ReadmeImages/R1GAN%20Generator%20and%20Dicriminator%20Loss.jpg)
+------------------------------------------------------------------------------------------------------------
+
+#### DCGAN Generator vs Discriminator Plots generated during training
 
 ![](https://github.com/gdeotale/E4P2/blob/master/Assignment6/ReadmeImages/plots.png)
 ------------------------------------------------------------------------------------------------------------
@@ -37,6 +49,10 @@ https://at058si8uc.execute-api.ap-south-1.amazonaws.com/dev/getcars
 **DC GAN **
 
 https://github.com/gdeotale/E4P2/blob/master/Assignment6/DCGan/DCGAN.ipynb
+
+**R1 GAN **
+
+https://github.com/gdeotale/E4P2/blob/master/Assignment6/R1GAN/R1GAN.ipynb
 
 DC GAN model kept at 
 https://github.com/gdeotale/E4P2/blob/master/Assignment6/DCGan/models/GD.py
