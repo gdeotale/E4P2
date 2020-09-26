@@ -10,11 +10,9 @@
 ![](https://github.com/gdeotale/E4P2/blob/master/Assignment7/ReadmeImages/reconstruction.gif)
 ------------------------------------------------------------------------------------------------------------
 
-#### Model output - random sample generated images
+#### Model output - newly generated images from random sample data
 
-![](https://github.com/gdeotale/E4P2/blob/master/Assignment6/ReadmeImages/Output-R1GAN.jpg)
-![](https://github.com/gdeotale/E4P2/blob/master/Assignment6/ReadmeImages/R1GAN.gif)
-![](https://github.com/gdeotale/E4P2/blob/master/Assignment6/ReadmeImages/R1GAN-RandomValue.jpg)
+![](https://github.com/gdeotale/E4P2/blob/master/Assignment7/ReadmeImages/new_generation.gif)
 ------------------------------------------------------------------------------------------------------------
 
 ## Following examples are implemented as AWS apps and accessible through below link:
