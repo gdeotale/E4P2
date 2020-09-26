@@ -10,7 +10,7 @@
 ![](https://github.com/gdeotale/E4P2/blob/master/Assignment7/ReadmeImages/reconstruction.gif)
 ------------------------------------------------------------------------------------------------------------
 
-#### Model output - sample generated images
+#### Model output - random sample generated images
 
 ![](https://github.com/gdeotale/E4P2/blob/master/Assignment6/ReadmeImages/Output-R1GAN.jpg)
 ![](https://github.com/gdeotale/E4P2/blob/master/Assignment6/ReadmeImages/R1GAN.gif)
