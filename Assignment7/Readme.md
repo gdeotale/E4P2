@@ -20,6 +20,10 @@
 ![](https://github.com/gdeotale/E4P2/blob/master/Assignment7/ReadmeImages/new_generation.gif)
 ------------------------------------------------------------------------------------------------------------
 
+#### Training loss plot
+
+![](https://github.com/gdeotale/E4P2/blob/master/Assignment7/ReadmeImages/download.png)
+
 ## Following examples are implemented as AWS apps and accessible through below link:
 1. Resnet image classification
 2. Mobilenet flying object classification
