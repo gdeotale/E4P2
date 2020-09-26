@@ -44,7 +44,9 @@
 6. Human pose estimation
 7. Using GAN for creating cars
 
-Link : https://session3--face-alignment-face-swap.s3.ap-south-1.amazonaws.com/doctype.html
+## Link to web page:
+
+https://session3--face-alignment-face-swap.s3.ap-south-1.amazonaws.com/doctype.html
 
 ------------------------------------------------------------------------------------------------------------
 
@@ -58,12 +60,12 @@ https://at058si8uc.execute-api.ap-south-1.amazonaws.com/dev/getcars
 
 https://github.com/gdeotale/E4P2/blob/master/Assignment6/DCGan/DCGAN.ipynb
 
+DC GAN model kept at 
+https://github.com/gdeotale/E4P2/blob/master/Assignment6/DCGan/models/GD.py
+
 **R1 GAN **
 
 https://github.com/gdeotale/E4P2/blob/master/Assignment6/R1GAN/R1GAN.ipynb
-
-DC GAN model kept at 
-https://github.com/gdeotale/E4P2/blob/master/Assignment6/DCGan/models/GD.py
 
 **HTML and js**
 
