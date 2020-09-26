@@ -34,6 +34,8 @@
 7. Using GAN for creating cars
 8. Using VAE for creating cars
 
+## Link to web page
+
 Link : https://session3--face-alignment-face-swap.s3.ap-south-1.amazonaws.com/doctype.html
 
 ------------------------------------------------------------------------------------------------------------
@@ -49,7 +51,9 @@ https://github.com/gdeotale/E4P2/tree/master/Assignment7/AWS
 -----------------------------------------------------------------------------------------------------------------------------
 ## Code links
 **VAE **
+
 Version 1:
+
 Contains comparitively lesser parameters with slight less accuracy
 
 https://github.com/gdeotale/E4P2/blob/master/Assignment7/VAE_version_mini/VAE.ipynb
