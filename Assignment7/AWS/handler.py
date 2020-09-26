@@ -31,9 +31,29 @@ print("Loading Model")
 ort_session = onnxruntime.InferenceSession(datname)
 print("Model Loaded...")
 
+def transform_image(image_bytes):
+    try:
+        image = Image.open(io.BytesIO(image_bytes))
+        np_image = copy.deepcopy(image)
+        np_image = np_image.resize((128,128))
+        np_image = np.asarray(np_image)
+        np_image = np.expand_dims(np_image, axis = 0)
+        np_image = np_image.transpose(0, 3, 1, 2)
+        mean_vec = np.array([0.485, 0.456, 0.406])
+        stddev_vec = np.array([0.229, 0.224, 0.225])
+        norm_img_data = np.zeros(np_image.shape).astype('float32')
+        for i in range(np_image.shape[0]):
+            for j in range(np_image.shape[1]):
+                norm_img_data[i,j,:,:] = (np_image[i,j,:,:]/255 - mean_vec[j]) / stddev_vec[j]
 
-def get_prediction():
-    z = np.random.randn(36,100).astype(np.float32)
+        return norm_img_data
+
+    except Exception as e:
+        print( repr(e))
+        raise(e)
+
+def get_prediction(image_bytes):
+    z = transform_image(image_bytes=image_bytes)
 
     ort_inputs = {ort_session.get_inputs()[0].name: z}
     ort_outs = ort_session.run(None, ort_inputs)
@@ -43,10 +63,10 @@ def get_prediction():
     plt.figure(figsize = (6,6))
     gs1 = gridspec.GridSpec(6,6)
     gs1.update(wspace=0.0, hspace=0.0)
-    for i in range(1,17):
-        plt.subplot(4,4,i)
+    for i in range(1,2):
+        plt.subplot(1,1,i)
         plt.axis('off')
-        plt.imshow((img[2*i+3]+1)/2., 'gray')
+        plt.imshow((img[0]), 'gray')
     
     
     in_mem_file = io.BytesIO()
@@ -57,8 +77,8 @@ def get_prediction():
     pil_img = pil_img.convert('RGB')
     pil_img.save(in_mem_file, format='jpeg')
     in_mem_file.seek(0)
-    s3.Object('gdeotale-session6-cars', 'cars.jpg').put(Body=in_mem_file,ContentType='image/JPG', ACL='public-read')
-    url = "https://{}.s3.amazonaws.com/{}".format('gdeotale-session6-cars', 'cars.jpg')
+    s3.Object('gdeotale-session7-cars', 'cars.jpg').put(Body=in_mem_file,ContentType='image/JPG', ACL='public-read')
+    url = "https://{}.s3.amazonaws.com/{}".format('gdeotale-session7-cars', 'cars.jpg')
 
     ##url = 'https://gdeotale-session6-cars.s3.ap-south-1.amazonaws.com/cars.jpg'
     print(url)
@@ -68,7 +88,13 @@ def get_prediction():
 
 def get_cars(event, context):
     try:
-        prediction = get_prediction()
+        content_type_header = event['headers']['content-type']
+        #print(event['body'])
+        body = base64.b64decode(event["body"])
+        print('BODY LOADED')
+        picture = decoder.MultipartDecoder(body, content_type_header).parts[0]
+        print("Picture loaded")	
+        prediction = get_prediction(image_bytes=picture.content)
         print("Prediction done")
         
         return {

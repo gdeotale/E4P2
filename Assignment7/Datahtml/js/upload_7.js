@@ -16,7 +16,7 @@ function uploadAndClassifyImage(){
 		async: true,
 		crossDomain: true,
 		method: 'POST',
-		url: 'https://d7p4azpba6.execute-api.ap-south-1.amazonaws.com/dev/align',
+		url: 'https://mibr0zsht3.execute-api.ap-south-1.amazonaws.com/dev/getcars',
 		data: formData,
 		processData: false,
 		contentType: false,
@@ -25,9 +25,9 @@ function uploadAndClassifyImage(){
 	.done(function(response){
 		console.log(response);
 		var image = document.getElementById('output_7_');
-		image.src = "https://session3--face-alignment-face-swap.s3.amazonaws.com/test.png?t=" + new Date().getTime();
+		image.src = "https://gdeotale-session7-cars.s3.amazonaws.com/cars.jpg?t=" + new Date().getTime();
 	})
 	.fail(function(){alert("There was an error while sending prediction request to align model");});
 	};
 	
-    $('#btnReconstructObjectUpload').click(uploadAndClassifyImage);
+    $('#btnReconstructCarUpload').click(uploadAndClassifyImage);
