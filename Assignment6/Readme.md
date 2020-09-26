@@ -1,4 +1,5 @@
-## EVA 4 Phase 2 Assignment 5 Human Pose estimation using MPII - ResNet50 Model trained on 256x256 sized images
+## EVA 4 Phase 2 Assignment 6 Using GAN to create cars from random latent vectors
+
 ------------------------------------------------------------------------------------------------------------
 1. We are internally passing random data to generator which is using it as latent vector to generate new cars
 ------------------------------------------------------------------------------------------------------------
