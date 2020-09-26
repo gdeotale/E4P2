@@ -1,0 +1,63 @@
+service: session7
+
+provider:
+  name: aws
+  runtime: python3.6
+  stage: dev
+  region: ap-south-1
+  timeout: 60
+  #environment: 
+   # MODEL_BUCKET_NAME: gdeotale-session7-cars
+   # MODEL_FILE_NAME_KEY: cars.onnx
+  iamRoleStatements:
+     - Effect: "Allow"
+       Action: 
+          - "s3:getObject"
+          - "s3:PutObject"
+          - "s3:PutObjectAcl"
+          - "s3:GetObjectAcl"
+       Resource: arn:aws:s3:::gdeotale-session7-cars/*
+
+custom:
+  pythonRequirements:
+    dockerizePip: true
+    zip: true
+    slim: true
+    strip: false
+    noDeploy: 
+      - docutils
+      - jmespath
+      - pip
+      - python-dateutil
+      - setuptools
+      - six
+      - tensorboard
+    useStaticCache: true
+    useDownloadCache: true
+    cacheLocation: "./cache"
+
+package:
+  individually: false
+  exclude:
+    - package.json
+    - package-log.json
+    - node_modules/**
+    - cache/**
+    - test/**
+    - __pycache__/**
+    - .pytest_cache/**
+    - model/**
+
+functions:
+  get_cars:
+    handler: handler.get_cars
+    memorySize: 3008
+    timeout: 60
+    events: 
+        - http:
+                path: getcars
+                method: post
+                cors: true
+
+plugins:
+  - serverless-python-requirements
