@@ -28,7 +28,7 @@ Link : https://session3--face-alignment-face-swap.s3.ap-south-1.amazonaws.com/do
 
 ------------------------------------------------------------------------------------------------------------
 
-## AWS API Link for Human pose estimation:
+## AWS API Link for GAN
 
 https://at058si8uc.execute-api.ap-south-1.amazonaws.com/dev/getcars
 
