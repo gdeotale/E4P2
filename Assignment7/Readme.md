@@ -7,8 +7,7 @@
 
 #### Model output - regenerated test images
 
-![](https://github.com/gdeotale/E4P2/blob/master/Assignment6/DCGan/Output.gif)
-![](https://github.com/gdeotale/E4P2/blob/master/Assignment6/ReadmeImages/Output_cars.png)
+![](https://github.com/gdeotale/E4P2/blob/master/Assignment7/ReadmeImages/reconstruction.gif)
 ------------------------------------------------------------------------------------------------------------
 
 #### Model output - sample generated images
