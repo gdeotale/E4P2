@@ -1,5 +1,12 @@
 
 ## EVA 4 Phase 2 Assignment 7 Using VAE to create cars from random latent vectors and to reconstruct cars
+------------------------------------------------------------------------------------------------------------
+
+## Group : 
+1. Abhijit Mali
+2. Gunjan Deotale
+3. Sanket Maheshwari
+4. Pratik Jain
 
 ------------------------------------------------------------------------------------------------------------
 
