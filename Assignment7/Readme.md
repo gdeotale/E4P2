@@ -35,17 +35,9 @@ Link : https://session3--face-alignment-face-swap.s3.ap-south-1.amazonaws.com/do
 
 -----------------------------------------------------------------------------------------------------------------------------
 ## Code links
-**DC GAN **
+**VAE **
 
-https://github.com/gdeotale/E4P2/blob/master/Assignment6/DCGan/DCGAN.ipynb
-
-**R1 GAN **
-
-https://github.com/gdeotale/E4P2/blob/master/Assignment6/R1GAN/R1GAN.ipynb
-
-DC GAN model kept at 
-https://github.com/gdeotale/E4P2/blob/master/Assignment6/DCGan/models/GD.py
+https://github.com/gdeotale/E4P2/blob/master/Assignment7/EVA4P2_A7_VAE.ipynb
 
 **HTML and js**
 
-https://github.com/gdeotale/E4P2/blob/master/Assignment6/Datahtml/doctype.html
