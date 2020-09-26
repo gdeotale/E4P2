@@ -42,6 +42,12 @@ https://github.com/gdeotale/E4P2/tree/master/Assignment7/AWS
 -----------------------------------------------------------------------------------------------------------------------------
 ## Code links
 **VAE **
+Version 1:
+Contains comparitively lesser parameters with slight less accuracy
+
+https://github.com/gdeotale/E4P2/blob/master/Assignment7/VAE_version_mini/VAE.ipynb
+
+Version 2:
 
 https://github.com/gdeotale/E4P2/blob/master/Assignment7/EVA4P2_A7_VAE.ipynb
 
