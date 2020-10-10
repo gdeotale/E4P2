@@ -2,6 +2,8 @@
 
 In this notebook, we have recreated a style transfer method that is outlined in the paper, [Image Style Transfer Using Convolutional Neural Networks, by Gatys](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf) in PyTorch.
 
+We have also taken inspiration from the implementation of this paper from the following blog: [Style Transfer using Pytorch](https://medium.com/analytics-vidhya/style-transfer-pytorch-84cf2e9ba86d) written by Alejandro Diaz
+
 In this paper, style transfer uses the features found in the 19-layer VGG Network, which is comprised of a series of convolutional and pooling layers, and a few fully-connected layers. In the image below, the convolutional layers are named by stack and their order in the stack. Conv_1_1 is the first convolutional layer that an image is passed through, in the first stack. Conv_2_1 is the first convolutional layer in the second stack. The deepest convolutional layer in the network is conv_5_4.
 
 ![Image](https://github.com/gdeotale/E4P2/blob/master/Assignment8/StyleTransfer/notebook_ims/vgg19_convlayers.png)
@@ -56,3 +58,8 @@ Calculate the gram matrix for the target image, target_gram and style image styl
 
 ### Total Loss
 The total loss is derived by adding up the style and content losses and weighting them with your specified alpha and beta!
+
+## Final Outputs
+
+![Image](https://github.com/gdeotale/E4P2/blob/master/Assignment8/StyleTransfer/images/results/all%20outputs%20styple%20transfer.png)
+
