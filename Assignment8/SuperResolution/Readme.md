@@ -10,10 +10,21 @@
 
 ------------------------------------------------------------------------------------------------------------
 
+#### Original vs Generated Super resolution images
+
+#Original
+![](https://github.com/gdeotale/E4P2/blob/master/Assignment8/SuperResolution/ReadmeImages/smallsize.jpg)
+#Reconstructed
+![](https://github.com/gdeotale/E4P2/blob/master/Assignment8/SuperResolution/ReadmeImages/bigsize.jpg)
+
+#Original2
+![](https://github.com/gdeotale/E4P2/blob/master/Assignment8/SuperResolution/ReadmeImages/smallsize_2.jpg)
+#Reconstructed
+![](https://github.com/gdeotale/E4P2/blob/master/Assignment8/SuperResolution/ReadmeImages/bigsize_2.jpg)
 
 #### Training loss plot
 
-![](https://github.com/gdeotale/E4P2/blob/master/Assignment7/ReadmeImages/download.png)
+![](https://github.com/gdeotale/E4P2/blob/master/Assignment8/SuperResolution/ReadmeImages/loss.png)
 
 ## Following examples are implemented as AWS apps and accessible through below link:
 1. Resnet image classification
