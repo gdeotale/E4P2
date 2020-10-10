@@ -1,5 +1,13 @@
 # Style Transfer with Deep Neural Networks
+-------------------------------------------
 
+## Group : 
+1. Abhijit Mali
+2. Gunjan Deotale
+3. Sanket Maheshwari
+4. Pratik Jain
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
 In this notebook, we have recreated a style transfer method that is outlined in the paper, [Image Style Transfer Using Convolutional Neural Networks, by Gatys](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf) in PyTorch.
 
 We have also taken inspiration from the implementation of this paper from the following blog: [Style Transfer using Pytorch](https://medium.com/analytics-vidhya/style-transfer-pytorch-84cf2e9ba86d) written by Alejandro Diaz
