@@ -21,6 +21,7 @@ Improved previous model using -
 Our trial : https://github.com/gdeotale/E4P2/blob/master/Assignment9/Neural_word_embeddings_and_sentiment_analysis_ex2.ipynb
 
 Results: 
+
 ![](https://github.com/gdeotale/E4P2/blob/master/Assignment9/model_2_predictions.PNG)
 
 ## 3. Faster Sentiment Analysis
