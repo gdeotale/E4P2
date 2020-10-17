@@ -4,4 +4,8 @@ In this assignment we have followed [this](https://github.com/bentrevett/pytorch
 He has taken us through the following 6 different models trained on IMDB reviews for positive and negative sentiments. We have also tried to replicate the same 6 codes.
 
 ## 1. Simple Sentiment Analysis
-sada
+Trained a Simple RNN model using TorchText library
+
+## 2. Better Sentiment Analysis
+Improved previous model using -
+  - packed
