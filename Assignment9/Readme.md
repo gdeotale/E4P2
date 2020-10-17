@@ -5,7 +5,8 @@ He has taken us through the following 6 different models trained on IMDB reviews
 
 ## 1. Simple Sentiment Analysis
 Trained a Simple RNN model using TorchText library
-our trial : https://github.com/gdeotale/E4P2/blob/master/Assignment9/Neural_word_embeddings_and_sentiment_analysis_ex1.ipynb 
+
+Our trial : https://github.com/gdeotale/E4P2/blob/master/Assignment9/Neural_word_embeddings_and_sentiment_analysis_ex1.ipynb 
 
 ## 2. Better Sentiment Analysis
 Improved previous model using -
