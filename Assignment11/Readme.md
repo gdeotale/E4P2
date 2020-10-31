@@ -30,3 +30,9 @@ https://github.com/gdeotale/E4P2/blob/master/Assignment11/Main.ipynb
 **HTML and js**
 
 https://github.com/gdeotale/E4P2/tree/master/Assignment11/Datahtml
+
+## heatmap of text translation
+![](https://github.com/gdeotale/E4P2/blob/master/Assignment11/ReadmeImages/heatmap.png)
+
+## perplexity vs epoch
+![](https://github.com/gdeotale/E4P2/blob/master/Assignment11/ReadmeImages/perplexity.png)
