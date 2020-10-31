@@ -9,7 +9,7 @@
 4. Pratik Jain
 
 
-# Neural Word Embedding
+# Text Translation
 In this assignment we have followed [this](https://bastings.github.io/annotated_encoder_decoder/) awesome github repo for german text to english translation.  We have also tried to replicate the same code.
 
 ## Link to web page
